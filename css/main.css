@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+#myVideo{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+body{
+    background-color: grey;
+}
+
+li, a, button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+
+#logo{
+    cursor: pointer;
+    color: white;
+    fill: white;
+}
+
+.navBarItems{
+    list-style: none;
+}
+
+.navBarItems li{
+    display: inline-flex;
+    padding: 0px 20px;
+}
+
+.navBarItems li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navBarItems li a:hover{
+    color: #0088a9;
+}
+
+#logIn{
+    padding: 9px 25px;
+    background-color: grey;
+    padding: 10px;
+    /* align-self: flex-end; */
+    /* margin-left: 15px; */
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 10px;
+
+}
+
+#signUp{
+    padding: 9px 25px;
+    background-color: grey;
+    padding: 10px;
+    /* margin-left: 10em; */
+    align-self: flex-end;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 10px;
+
+}
+
+#logIn:hover{
+    background-color: beige;
+    color: #0088a9;
+}
+
+#signUp:hover{
+    background-color: beige;
+    color: #0088a9;
+}
+
+
+#centerButton{
+    background-color: grey;
+    padding: 9px 25px;
+    cursor: pointer;
+    width: 12em;
+    height: 4em;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.3s ease 0s;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#centerButton:hover{
+    background-color: beige;
+    box-shadow: 0px 0px 15px 15px rgba(255, 255, 255, 0.189);
+    color: #0088a9;
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+#myVideo{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+body{
+  margin: 0;
+  padding: 0;
+  /* background: linear-gradient(120deg,#2980b9, #8e44ad); */
+  height: 100vh;
+}
+.center{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 10%;
+  margin-left: 10%;
+  width: 80%;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+.center h1{
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid silver;
+}
+.center p{
+  margin-left: 10%;
+  max-width: 80%;
+  border-bottom: 1px gray solid;
+  padding: 20px 0px;
+  margin-bottom: 3%;
+}
